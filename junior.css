@@ -1,0 +1,168 @@
+body{
+    background-image: url(./fond.png) ;
+}
+header{
+    margin: 5px;
+}
+.logo{
+    background: white;
+    margin: 1px;
+    padding: 1px;
+}
+.bannière{
+     height: 150px;
+    width: 100%;
+     border-bottom: 2px solid #000;
+}
+.slogan{
+    color: rgba(255, 0, 0, 0.614);
+}
+h1{
+    
+}
+header nav{
+    background: white;
+    padding: 0 10px;
+   padding-top: 3px;
+}
+header nav a{
+    color: rgba(255, 0, 0, 0.717);
+    text-decoration: none;
+    display: inline;
+    margin: 0 35px;
+    margin: 32px;
+}
+nav a:hover {
+    color: maroon; /* Couleur au survol */
+}
+section{
+    background: white;
+     padding: 0 10px;
+     margin: 5px;
+    padding: 1rem;
+    flex: 2;
+    padding-right: 20px;
+    margin-top: -10px;
+}
+.dg{
+    float: left;
+    margin-top: 2%;
+    margin-right: 15px;
+}
+aside {
+    flex: 10;
+    width: 250px;
+    padding: 1px;
+    border: 3px; 
+   background-image: url(images/fond_jaune5.png);
+    float: right;
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    margin-top: 50px;
+}
+
+aside h2 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:darkblue ; /* Couleur du titre plus foncée */
+}
+
+aside p {
+    font-size: 80%;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: darkblue; /* Couleur du texte plus claire */
+}
+.aside-image {
+    width: 30px; 
+    height: auto; 
+    margin-right: 5px; 
+}
+
+aside img:first-child{
+    width:100%
+}
+td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    background: lightpink;
+    text-align: center;
+    margin-left: 100px;
+    width: 100vh;
+}
+footer{
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 6px;
+    border-bottom: 3px solid black;
+    margin-top: -10px;
+}
+footer .links {
+    margin-bottom: 20px;
+}
+footer a {
+    color: darkblue;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.copyright{
+    color: mediumblue;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    padding:0;
+}
+
+.contact-info , .contact-form  {
+    color: #333;
+    margin-bottom: 20px;
+    margin-right: 50vh;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    color: black;
+    padding: 5px 10px;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.image-a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   width: 48%; /* Ajustez la largeur selon vos besoins */
+  margin-bottom: 10px;
+}
+.separateur{
+  width: 63.5rem;
+  height: 0.2vw;
+  margin:5px;
+}
+p{
+  font-size: 92%;
+    line-height: 1.5;
+}
+nav ol li{
+  font-size: 90%;
+    line-height: 1.5;
+}
+nav li{
+  font-size: 90%;
+    line-height: 1.5;
+}
+
